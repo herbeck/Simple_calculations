@@ -109,8 +109,10 @@ ui <- fluidPage(
         tabPanel("Documentation",
                  br(),
                  h4("About this app"),
-                 p("This app is based on the publication "'Simple calculations of direct impact for the initial assessment of the value of primary HIV prevention interventions', by
-                   Geoff Garnett, Josh Herbeck, and Adam Akullian""),
+                 p("This app is based on the publication ", 
+                   a(href="https://www.medrxiv.org/content/10.1101/2024.07.13.24310366v1.full", 
+                     "Simple calculations of direct impact for the initial assessment of the value of primary HIV prevention interventions,"), 
+                   " by Geoff Garnett, Josh Herbeck, and Adam Akullian."),
                  p("This app calculates the Number Needed to Treat (NNT), the Cost per Infection Averted (C), and the Efficiency Ratio (E) between Treatment as Prevention (TasP) and Primary Prevention for HIV interventions."),
                  
                  h5("Inputs:"),

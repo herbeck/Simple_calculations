@@ -1,0 +1,12 @@
+name: Simple_calculations
+title: Simple_calculations
+username: joshherbeck
+account: joshherbeck
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14006373
+bundleId: 9802679
+url: https://joshherbeck.shinyapps.io/Simple_calculations/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
